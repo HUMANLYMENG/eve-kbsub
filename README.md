@@ -8,8 +8,8 @@ killmail subscription program for Eve online
 ## 安装与配置
 
 1. **准备文件**
-    - **字体**: 在项目根目录创建 `fonts` 文件夹，并放入所需字体。
-    - **EVE SDE**: 下载 EVE 静态数据，并将 `sde` 文件夹放入项目根目录。
+    - **字体**: 项目根目录 `fonts` 文件夹，包含所需字体。
+    - **EVE SDE**: 下载 EVE SDE (https://developers.eveonline.com/docs/services/sde/)，并将 `sde` 文件夹放入项目根目录。
 
 2.  **修改配置 (最重要)**
     - **编辑 `include.py` 文件**，填入你自己的 `QUEUE_ID`, `USER_AGENT` 和 `vips` 列表。
